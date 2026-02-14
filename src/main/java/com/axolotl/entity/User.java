@@ -1,4 +1,4 @@
-package user;
+package com.axolotl.entity;
 
 import java.time.Instant;
 import java.util.HashSet;
