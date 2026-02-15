@@ -7,6 +7,6 @@ import com.axolotl.entity.Permission;
 
 @Repository
 public interface PermissionRepository extends JpaRepository<Permission,Long>{
-
+   
 
 }

@@ -1,4 +1,4 @@
-package user;
+package com.axolotl.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
