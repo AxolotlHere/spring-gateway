@@ -4,13 +4,13 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-public class SignupReq {
+public class LoginReq {
    @Email(message = "Invalid email")
    @NotBlank(message = "Email can not be blank")
    private String email;
 
    @NotBlank(message = "Password can not be blank")
-   @Size(min = 6,message = "Password must be of atleast 6 characters")
+   @Size(min=6,message = "Password should atleast be 6 characters long")
    private String password;
 
    public String getEmail(){
@@ -25,5 +25,4 @@ public class SignupReq {
    public void setPassword(String password){
       this.password = password;
    }
-   
 }
